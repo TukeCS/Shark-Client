@@ -2,6 +2,11 @@
 
 #include "imgui_hook.h"
 #include "imgui.h"
+#include <Windows.h>
+
+extern HMODULE g_hModule;
+extern bool g_isDetached;
+extern DWORD WINAPI ExitThread(LPVOID lpThreadParameter);
 
 namespace gui
 {
