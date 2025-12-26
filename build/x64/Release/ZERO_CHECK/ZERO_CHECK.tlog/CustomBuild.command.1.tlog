@@ -1,0 +1,10 @@
+^C:\USERS\TUKER\ONEDRIVE\DESKTOP\INTERNAL-CLIENT\BUILD\CMAKEFILES\11BADE96F720DF969A61DD674DB7E3E8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tuker/OneDrive/Desktop/Internal-Client -BC:/Users/tuker/OneDrive/Desktop/Internal-Client/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tuker/OneDrive/Desktop/Internal-Client/build/InternalClient.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/tuker/OneDrive/Desktop/Internal-Client/build/CMakeFiles/InternalClient.dir
+C:/Users/tuker/OneDrive/Desktop/Internal-Client/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tuker/OneDrive/Desktop/Internal-Client/build/CMakeFiles/ZERO_CHECK.dir
